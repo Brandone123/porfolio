@@ -13,7 +13,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Raleway', sans-serif;
     background-repeat: no-repeat;
@@ -33,7 +32,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .bio {
     display: flex;
     flex-wrap: wrap;
@@ -45,22 +43,18 @@ body {
     position: relative;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
-
 .bioD {
     display: flex;
     padding-top: 10px;
 }
-
 .bioDRight {
     padding-left: 20px;
 }
-
 .biodata {
     display: flex;
     flex-direction: column;
     flex-grow: 2;
 }
-
 .container {
     width: 100%;
     padding-right: 15%;
@@ -68,93 +62,75 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-
 .details {
     display: flex;
     padding: 15px;
     flex-direction: column;
 }
-
 .details h1 {
     font-size: 25px;
     color: #08c487;
     text-transform: uppercase;
 }
-
 .details h1 span {
     color: #333;
     font-weight: 500;
 }
-
 .inner-box {
+    display: flex;
     padding: 30px;
-     width: 100%;
-    display: inline-flex;
 }
-
 .logo {
     color: #fff;
     padding-top: 25px;
     font-size: 15px;
     font-family: 'Roboto' 'Arial';
 }
-
 .midspace {
     padding: 15px;
 }
-
 .pix {
     padding: 0;
     height: 268px;
     /* box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.9); */
 }
-
 progress[value] {
     text-align: left;
     height: 10px;
     width: 100%;
-
     -webkit-appearance: none;
     border: none;
 }
-
 progress:before {
     content: attr(data-label);
     font-size: 0.8em;
     vertical-align: 0
 }
-
 progress::-webkit-progress-bar {
     background-color: #c9c9c9;
 }
-
 progress::-webkit-progress-value {
     background-color: #08c487;
 }
-
 progress::-moz-progress-bar {
     background-color: #08c487;
 }
-
 .row {
     padding-top: 35px;
     padding-bottom: 5px;
 }
-
 .skill-level {
     padding-left: 30px;
     width: 60%;
 }
-
 .probox {
-    padding-bottom: 30px;
+    padding-bottom: 28px;
 }
-
 .skill-type p {
-    padding-bottom: 24px;
+    padding-bottom: 8px;
+    padding-top: 11px;
     text-align: right;
 }
-
 .social-icon {
     display: flex;
     flex-direction: row;
@@ -162,29 +138,23 @@ progress::-moz-progress-bar {
     background: #08c487;
     padding: 14px;
 }
-
 .svg:hover {
     padding: 5px;
 }
-
 .svg:hover {
     border: solid 1px #fff;
 }
-
 .shodow-box {
     background: #fff;
     width: 100%;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-    display: inline-flex;
 }
-
 .tittle {
     color: #08c487;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
 }
-
 .topbg {
     min-height: 30vh;
     background: #08c487;
@@ -193,49 +163,36 @@ progress::-moz-progress-bar {
     align-items: top;
     justify-content: center;
 }
-
 /* WORK EXPERIENCE */
-
-
 .expi {
     padding: 30px;
 }
-
 .exp-box {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 .work {
     flex-grow: 4;
 }
-
 .work h1 {
     font-size: 25px;
     padding-bottom: 10px;
 }
-
 .work h2 {
     font-size: 15px;
 }
-
 .work ul {
     list-style: square;
     padding-left: 30px;
     padding-top: 15px;
 }
-
 /* INTEREST */
-
-
 .interest ul {
     list-style: square;
     padding-left: 20px;
 }
-
 /* FOOTER */
-
 footer {
     flex-direction: row;
     background: #08c487;
@@ -243,18 +200,14 @@ footer {
     justify-content: center;
     margin-top: 35px;
 }
-
 .footer-info {
     display: flex;
     justify-content: space-between;
 }
-
 .footer-info p {
     color: #fff;
     padding-top: 15px;
 }
-
-
 #float-btn {
     position: fixed;
     top: 50%;
@@ -262,7 +215,6 @@ footer {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-
 /*add full-width input fields*/ 
 input[type=text], 
 input[type=password] { 
@@ -281,7 +233,6 @@ input[type=password] {
     right:40px;
     
 }
-
 button { 
     background-color: #08c487; 
     color: white; 
@@ -293,11 +244,9 @@ button {
     font-size: 15px;
     opacity: 0.7;
 } 
-
 button:hover {
     background-color: #333;
 }
-
 /*set styles for the cancel button*/ 
 .cancelbtn { 
     padding: 14px 20px; 
@@ -313,7 +262,6 @@ button:hover {
 .form-container { 
     padding: 16px; 
 } 
-
 .form-input {
     width: 100%; 
     padding: 12px 20px; 
@@ -374,29 +322,6 @@ button:hover {
     .signupbtn { 
         width: 100%; 
     } 
-  .container, body, section {
-      padding: 0px;
-      margin: 0px;
-      width: auto;
-      text-align: left;
-    }
-    .pix img {
-      width: 360px;
-      height: 280px;
-    }
-    .form-input, .modal, .form-container, .modal-content {
-      width: auto;
-    }
-  .form-input {
-    width: 100%;
-    display: inline-block;
-  }
-  .skill-type p {
-    text-align: left;
-  }
-  .probox {
-    padding-bottom: 35px;
-}
 } 
   </style>
 </head>
